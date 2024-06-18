@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<h1>TASK-4</h1>
+<p><big><b> Name: </big></b> LAKSHANA R<br>
+<big><b> Reg No.: </big></b> 21MIS0357</p>
+
+<style>
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.container {
+    height: 200px;
+    text-align: center;
+}
+
+table,td {
+border:1px solid black;
+border-collapse:collapse;
+}
+
+</style>
+</head>
+
+<body>
+
+<table class="center">
+
+<caption style="margin-bottom:10px; color:blue; font-weight:bold; font-size:28px;">Registration form</caption>
+<br>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">First Name</td>
+<td><input style="width:400px;" type="text"></td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">Last Name</td>
+<td><input style="width:400px;" type="text"></td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">Email</td>
+<td><input style="width:400px;" type="email"></td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">Password</td>
+<td><input style="width:400px;" type="password"></td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">Re-enter Password</td>
+<td><input style="width:400px;" type="password"></td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">Gender:</td>
+<td><input type="radio"> <label for="Male">Male</label><br><hr><input type="radio"> <label for="Female">Female</label></td></td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">Age:</td>
+<td><input style="width:400px;" type="number"></td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">Phone Number</td>
+<td><input style="width:400px;" type="number"></td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">Address</td>
+<td><input style="width:400px;" type="address"></td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">State</td>
+<td><input style="width:400px;" type="text"></td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">Country</td>
+<td>
+  <select name="Country" id="Country">
+    <option value="choose">Choose your country</option>
+    <option value="1">India</option>
+    <option value="2">Japan</option>
+    <option value="3">Korea</option>
+    <option value="4">China</option>
+    <option value="5">Pakistan</option>
+    <option value="6">USA</option>
+    <option value="7">Sri Lanka</option>
+    <option value="8">UK</option>
+    <option value="8">Canada</option>
+    <option value="10">Australia</option>
+  </select>
+</td>
+</tr>
+
+<tr>
+<td style="font-weight:bold; text-align:center;">Languages Known</td>
+<td>
+<input type="checkbox">English</input>
+<input type="checkbox">Kannada</input>
+<input type="checkbox">Hindi</input>
+<input type="checkbox">Telugu</input>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<input type="checkbox">Hereby I declare all the given details are true</input>
+</td>
+
+<tr>
+<td colspan="2">
+<p style="text-align:right;">Log in to <a href="">Ethnus</a>&nbsp;website</p>
+</td>
+
+</table>
+<br>
+
+<div class="container">
+<button type="submit" onclick="myFunction()">Register</button>
+</div>
+
+<script>
+function myFunction() {
+alert("Registered!");
+}
+</script>
+
+</body>
+</html>
